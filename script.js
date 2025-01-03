@@ -200,6 +200,7 @@ document.addEventListener("DOMContentLoaded", () => {
         section3.style.display = "block";
         section2.style.overflow="visible";
         section3.style.overflow="visible";
+        document.getElementById("section2nextImage").style.display="block";
         //scroll down image enable
     });
 
@@ -268,6 +269,8 @@ document.addEventListener("DOMContentLoaded", () => {
     foodchain_button.addEventListener('click', () => {
         section4.style.display="block"
         section4.style.overflow="visible";
+        document.getElementById("section3nextImage").style.display="block";
+
     });
 
 
@@ -495,6 +498,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //5th
     function enablesection5video(){
         section5.style.display="block"
+        document.getElementById("section4nextImage").style.display="block";
         section5.style.overflow="visible";
         section5bgVideo.muted = false; // Unmute the video
         section5bgVideo.play()
