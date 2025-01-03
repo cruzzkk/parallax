@@ -41,19 +41,43 @@ body {
     object-fit: cover;
 }
 
+ 
 #nextImage {
     position: absolute;
-    width: 100%; /* Automatically scale image */
-    height:auto;
-    object-fit: contain; /* Maintain aspect ratio */
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 50px;
-    cursor: pointer;
-     
+    bottom: 5%;
+    left: 40%;
+    transform: translateX(-50%,-50%);
+    width: 20%;  
+    height: auto;  
+    display: none;
+ }
+#nextImage img{
 
+    width: 100%;  
+    height: auto;
+    object-fit: contain;
+    display: block;
 }
+#nextImage p{
+    position: absolute; 
+    top: 5%;  
+    left: 50%;  
+    width: 80%;
+    transform: translate(-50%,-50%);  
+    background-color: rgba(255, 191, 0, 0); 
+    padding: 10px;  
+    border-radius: 0.5vw; 
+    font-family: 'Heinemann';
+    font-style:"italic" ;
+    font-size: 1.2vw;  
+    text-align: center;
+    text-wrap: wrap;
+    display: block;
+    overflow: hidden;
+    color:#f0f0f0 ;
+}
+
+ 
 
 
 
@@ -1515,18 +1539,39 @@ bear 5 */
     height: 100%;
     object-fit: cover;
 }
-#section5nextImage {
+#nextImage {
     position: absolute;
-    width: 100%; /* Automatically scale image */
-    height:auto;
-    object-fit: contain; /* Maintain aspect ratio */
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 50px;
-    cursor: pointer;
-     
+    bottom: 5%;
+    left: 40%;
+    transform: translateX(-50%,-50%);
+    width: 20%;  
+    height: auto;  
+    display: none;
+ }
+#nextImage img{
 
+    width: 100%;  
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+#nextImage p{
+    position: absolute; 
+    top: 5%;  
+    left: 50%;  
+    width: 80%;
+    transform: translate(-50%,-50%);  
+    background-color: rgba(255, 191, 0, 0); 
+    padding: 10px;  
+    border-radius: 0.5vw; 
+    font-family: 'Heinemann';
+    font-style:"italic" ;
+    font-size: 1.2vw;  
+    text-align: center;
+    text-wrap: wrap;
+    display: block;
+    overflow: hidden;
+    color:#f0f0f0 ;
 }
 
  
