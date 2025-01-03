@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updated Parallax Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- First Section -->
+  <div id="section1" class="section" style="display: block;">
+    <video id="bgVideo"  >
+      <source src="assets/bg_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <img id="nextImage" src="assets/second_page/scroll.png" alt="Next" style="display: none;">
+  </div>
+   
+
+  <!-- Second Section -->
+  <div id="section2" class="section"  style="display: block;" >
+    <div class="image-container" id="wall" data-speed="-0.25">
+      <img src="assets/Slides11-17/Parallax_scroll_BG_crop.png" alt="Background" />
+    </div>
+    <div class="image-container" id="sun" data-speed="-0.25">
+      <img src="assets/Slides11-17/Sun_01.png" alt="Sun">
+    </div>
+    <div class="image-container" id="mountain" data-speed="-0.15">
+      <img src="assets/Slides11-17/updated/Mountains_01.png" alt="Mountain">
+    </div>
+    <div class="image-container" id="house" data-speed="-0.15">
+      <img src="assets/Slides11-17/updated/House.png" alt="House">
+    </div>
+    <div class="image-container" id="garden" data-speed="-0.15">
+      <img src="assets/Slides11-17/updated/Garden.png" alt="Garden">
+    </div>
+    <div class="image-container" id="grass_toplayer" data-speed="-0.1">
+      <img src="assets/Slides11-17/updated/Grass_top_layer.png" alt="Grass_toplayer">
+    </div> 
+    
+      <!-- Octopus and Dialog Box -->
+    <div id="octopusContainer">
+      <img id="octopus" src="assets/Slides11-17/Octopus_inset.png" alt="Octopus">
+    </div>
+    <div id="dialogBox">
+      <img id="dialogBoxImage" src="assets/Slides11-17/Callout01.png" alt="DialogBoxImage">
+      <p id="dialogText">This is the dialog text.This is the dialog text.This is the dialog text.This is the dialog text.This is the dialog text.</p>
+    </div>
+
+      <!-- White Overlay -->
+    <div id="whiteOverlay">
+    </div>
+    <!-- Circle buttons -->
+    <div class="button-container" id="button1">
+      <img src="assets/Slides11-17/Consumers.png"  alt="Button1">
+      <div id="label1" class="label">
+        <img src="assets/Slides11-17/Consumers_text_box.png"  alt="Label1">
+        <p id="labelText">Consumer</p>
+      </div>
+      <div id="arrow1" class="arrow">
+        <img src="assets/Slides11-17/Curved_arrow.png"  alt="Arrow1">
+      </div>
+    </div> 
+    <div class="button-container" id="button2">
+      <img src="assets/Slides11-17/Consumers01.png"  alt="Button2">
+      <div id="label2" class="label">
+        <img src="assets/Slides11-17/Consumers_text_box.png"  alt="Label2">
+        <p id="labelText">Consumer</p>
+      </div>
+      <div id="arrow2" class="arrow">
+        <img src="assets/Slides11-17/Curved_arrow.png"  alt="Arrow2">
+      </div>
+    </div> 
+    <div class="button-container" id="button3">
+      <img src="assets/Slides11-17/Decomposers.png"  alt="Button3">
+      <div id="arrow3" class="arrow">
+        <img src="assets/Slides11-17/Curved_arrow.png"  alt="Arrow3">
+      </div>
+      <div id="label3" class="label">
+        <img src="assets/Slides11-17/Consumers_text_box.png"  alt="Label3">
+        <p id="labelText">Decomposers</p>
+      </div>
+    </div> 
+    <div class="button-container" id="button4">
+      <img src="assets/Slides11-17/Producers.png" alt="Button4">
+      <div id="arrow4" class="arrow">
+        <img src="assets/Slides11-17/Curved_arrow.png"  alt="Arrow4">
+      </div>
+      <div id="label4" class="label">
+        <img src="assets/Slides11-17/Consumers_text_box.png"  alt="Label4">
+        <p id="labelText">Producers</p>
+      </div>
+    </div> 
+    
+  </div>
+
+
+  <!-- Third Section -->
+  <div id="section3" class="section"  style="display: block;">
+    <div class="image-container" id="section3_BG" data-speed="-0.15">
+      <img src="assets/Slides18-20/Sky.png" alt="Section3_BG">
+    </div>
+    <div class="image-container" id="section3_sun" data-speed="-0.6">
+      <img src="assets/Slides18-20/Sun02.png" alt="Section3_sun">
+    </div>
+    <div class="image-container" id="section3_tree" data-speed="-0.3">
+      <img src="assets/Slides18-20/Trees.png" alt="Section3_tree">
+    </div>
+    <div class="image-container" id="section3_bushes" data-speed="-0.15">
+      <img src="assets/Slides18-20/bushes.png" alt="Section3_bushes">
+    </div>
+    <div id="section3octopusContainer"  data-speed="-0.15">
+      <img id="octopus" src="assets/Slides18-20/Octopus_side.png" alt="Octopus">
+    </div>
+    
+    <div id="section3octopusContainershell"  data-speed="-0.15">
+      <img id="octopus" src="assets/Slides18-20/Octopus_and_shells.png" alt="Octopus">
+      <div class="overlay-text-shell" id="foodchain">Build Food Chains</div>
+      <div class="overlay-text-shell" id="meetfriends">Meet My Friends</div>
+      <div class="overlay-text-shell" id="feedingfrenzy">Feeding Frenzy</div>
+    </div>
+    <div id="section3dialogBox">
+      <img id="section3dialogBoxImage" src="assets/Slides18-20/Callout.png" alt="section3dialogBoxImage">
+      <p id="section3dialogText">This is the dialog text.This is the dialog text.This is the dialog text.This is the dialog text.This is the dialog text.</p>
+    </div>
+
+    <div class="image-container" id="section3_button" data-speed="null">
+      <img src="assets/Slides18-20/Start_Adventure.png" alt="section3_button" class="hoverable-image">
+      <div class="overlay-text">Start Adventure</div>
+    </div>
+
+    <div class="image-container" id="section3_water" data-speed="-0.15">
+      <img src="assets/Slides18-20/Water_octopus.png" alt="Section3_water">
+    </div>
+  </div>
+
+  <!-- Forth Section -->
+  <div id="section4" class="section" style="display: block;" >
+      <div class="image-container" id="section4_BG" data-speed="-0.15">
+        <img src="assets/Slides_25-35/Sky.png" alt="Section4_BG">
+      </div>
+      <div class="image-container" id="section4_sun" data-speed="-0.3">
+        <img src="assets/Slides18-20/Sun02.png" alt="Section4_sun">
+      </div>
+      <div class="image-container" id="section4_hill" data-speed="-0.2">
+        <img src="assets/Slides_25-35/Hills.png" alt="Section4_hill">
+      </div>
+      <div class="image-container" id="section4_tree" data-speed="-0.2">
+        <img src="assets/Slides_25-35/Trees_ground.png" alt="Section4_tree">
+      </div>
+      <div class="image-container" id="section4_water" data-speed="null">
+        <img src="assets/Slides_25-35/Water.png" alt="Section4_water">
+        <div class="section4button-container" id="section4button4">
+          <img src="assets/Slides_25-35/Yeast.png"  alt="Section4button4">
+        </div>
+      </div>
+      <div id="section4octopusContainer"  data-speed="-0.15">
+        <img id="octopus" src="assets/Slides_25-35/octopus.png" alt="Section4octopusContainer">
+      </div>
+      <div id="section4dialogBox" data-speed="-0.15">
+        <img id="section4dialogBoxImage" src="assets/Slides18-20/Callout.png" alt="section3dialogBoxImage">
+        <p id="section4dialogText">This is the dialog text.This is the dialog text.This is the dialog text.This is the dialog text.This is the dialog text.</p>
+      </div>
+      <div class="image-container" id="section4_waterover" data-speed="-0.2">
+        <img src="assets/Slides_25-35/Water_over_octopus.png" alt="Section4_waterover">
+      </div>
+      <div class="image-container" id="section4plant" data-speed="-0.15">
+        <img src="assets/Slides_25-35/Yeast_plant.png" alt="Section4plant">
+      </div>
+      <div class="image-container" id="section4plantray" data-speed="-0.15">
+        <img src="assets/Slides_25-35/Yeast_plant_focus.png" alt="Section4plantray">
+      </div>
+      <div class="section4button-container" id="section4button1" data-speed="-0.15">
+        <img src="assets/Slides_25-35/Kelp.png"  alt="section4button1">
+      </div>
+      <div class="section4button-container" id="section4button2" data-speed="-0.15">
+        <img src="assets/Slides_25-35/Grizzly_bear.png"  alt="Section4button2">
+      </div>
+      <div class="section4button-container" id="section4button3" data-speed="-0.15">
+        <img src="assets/Slides_25-35/Salmon.png"  alt="Section4button3">
+      </div>
+      <div class="page-container">
+        <div id="section4ReadHelp">
+          <img id="section4ReadHelpImage" src="assets/Slides18-20/Start_Adventure.png" alt="section4ReadHelpImage">
+          <p id="section4ReadHelpText">Language Help</p>
+        </div>
+        <div id="section4Help">
+          <img id="section4HelpImage" src="assets/Slides18-20/Start_Adventure.png" alt="section4HelpImage">
+          <p id="section4HelpText">Reading Help</p>
+        </div>
+       </div>
+      <!-- White Overlay -->
+      <div class="overlay">
+         
+          <div class="image-container" id="popupWindow">
+            <img src="assets/Slides_25-35/Popup_window.png" alt="PopupWindow" />
+                    <!-- Close Button -->
+            <button id="closePopupBtn" class="close-btn">
+                <img src="assets/Slides_25-35/Popup_window_close.png" alt="Close" />
+            </button>
+            <!-- New Headings -->
+            <div class="headings-container">
+              <h1 class="heading heading-1">Language Help</h1>
+            </div>
+            <div class="headings-container2">
+              <h1 class="heading heading-1">Important Words and Phrases</h1>
+            </div>
+              <!-- Country Selector Container -->
+            <div id="country-container">
+              <div class="country-list">
+                  <button class="country-btn" data-clicked="assets/Slides_25-35/English_selected.png" data-unclicked="assets/Slides_25-35/English.png">
+                      <img src="assets/Slides_25-35/English.png" alt="English" />
+                      <p id="section4countryText">English</p>
+
+                  </button>
+              </div>
+              <div class="country-list">
+                  <button class="country-btn"  data-clicked="assets/Slides_25-35/Spanish_selected.png" data-unclicked="assets/Slides_25-35/Spanish.png">
+                      <img src="assets/Slides_25-35/Spanish.png" alt="English" />
+                      <p id="section4countryText">Spanish</p>
+
+                    </button>
+              </div>
+              <div class="country-list">
+                <button class="country-btn"  data-clicked="assets/Slides_25-35/Tagalog_selected.png" data-unclicked="assets/Slides_25-35/Tagalog.png">
+                    <img src="assets/Slides_25-35/Tagalog.png" alt="English" />
+                    <p id="section4countryText">Tagalog</p>
+
+                  </button>
+              </div>
+              <div class="country-list">
+                  <button class="country-btn"  data-clicked="assets/Slides_25-35/Cantonese_selected.png" data-unclicked="assets/Slides_25-35/Cantonese.png">
+                      <img src="assets/Slides_25-35/Cantonese.png" alt="English" />
+                      <p id="section4countryText">Cantonese</p>
+
+                    </button>
+              </div>
+              <div class="country-list">
+                <button class="country-btn"  data-clicked="assets/Slides_25-35/Mandarin_selected.png" data-unclicked="assets/Slides_25-35/Mandarin.png">
+                    <img src="assets/Slides_25-35/Mandarin.png" alt="English" />
+                    <p id="section4countryText">Mandarin</p>
+
+                  </button>
+              </div>
+            </div>
+            <div class="language-help">
+              <div class="content">
+                  <div class="phrases-container">
+                      <div class="phrase-row">
+                          <div class="phrase-box">
+                              <button class="audio-btn">🔊</button>
+                              <div class="phrase-word">Kelp</div>
+                          </div>
+                          <div class="phrase-box2">
+                              <div class="phrase-definition">
+                                  algae and seaweed that live in the ocean
+                              </div>
+                          </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="phrase-row">
+                          <div class="phrase-box">
+                              <button class="audio-btn">🔊</button>
+                              <div class="phrase-word">Shallow</div>
+                          </div>
+                          <div class="phrase-box2">
+                              <div class="phrase-definition">Not very deep</div>
+                          </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="phrase-row">
+                          <div class="phrase-box">
+                              <button class="audio-btn">🔊</button>
+                              <div class="phrase-word">Nutrient:</div>
+                          </div>
+                          <div class="phrase-box2">
+                              <div class="phrase-definition">Nourishment that helps things grow</div>
+                          </div>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="phrase-row">
+                        <div class="phrase-box">
+                            <button class="audio-btn">🔊</button>
+                            <div class="phrase-word">Nutrient-rich:</div>
+                        </div>
+                        <div class="phrase-box2">
+                            <div class="phrase-definition">having many nutrients</div>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="phrase-row">
+                      <div class="phrase-box">
+                          <button class="audio-btn">🔊</button>
+                          <div class="phrase-word">Environment:</div>
+                      </div>
+                      <div class="phrase-box2">
+                          <div class="phrase-definition">what surrounds a plant or animal; where a plant or animal lives</div>
+                      </div>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="phrase-row">
+                    <div class="phrase-box">
+                        <button class="audio-btn">🔊</button>
+                        <div class="phrase-word">Photosynthesis:</div>
+                    </div>
+                    <div class="phrase-box2">
+                        <div class="phrase-definition">a process where plants use sunlight to make food</div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                  <div class="phrase-row">
+                    <div class="phrase-box">
+                        <button class="audio-btn">🔊</button>
+                        <div class="phrase-word">Herbivore:</div>
+                    </div>
+                    <div class="phrase-box2">
+                        <div class="phrase-definition">an animal that feeds on plants</div>
+                    </div>
+                </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+            
+      </div>
+        <!-- Transparent Overlay -->
+      <div class="overlay2">
+                              <!-- Close Button -->
+                              <button id="closePopupBtn2" class="close-btn">
+                                <img src="assets/Slides_25-35/Popup_window_close.png" alt="Close" />
+                            </button>
+          <div class="contentContainer">
+              <img src="assets/Slides_25-35/Popup_window.png" alt="Reading Help Background" class="backgroundImage">
+              <div class="readingHelpTitle">Reading Help</div>
+              <div class="helpContent">
+                  <p>• Kelp are algae and seaweed. Kelp are found in large batches called 
+                      <span class="underline" onclick="showPopup(1)">forests</span>.
+                  </p>
+                  <p>• Kelp grows in an shallow <span class="underline" onclick="showPopup(2)">nutrient-rich enviroment</span>. where sunlight can reach.</p>
+                  <p>• Kelp absorb its nutrients from the sun and waters around it. It uses photosynthesis to make its own food.Things that <span class="underline" onclick="showPopup(3)">consume</span>, or eat, kelp are marine <span class="underline" onclick="showPopup(4)">herbivores</span>(something that eat plants).Sea urchins,mollusks, and some fish species also consume kelp.</p>
+              </div>
+          </div>
+              <!-- Popup -->
+              <div id="popup1" class="popup">
+                <div class="popupContainer">
+                    <img src="assets/Slides_25-35/Reading_Help_popup.png" alt="Popup1">
+                    <button onclick="hidePopup('popup1')">✖</button>
+                    <div id="grassImage">
+                        <img src="assets/Slides_25-35/Photo01.png" alt="GrassImage" />
+                        <p>A big, natural area with lots of trees, plants, and different animals.</p>
+                    </div>
+                </div>
+              </div>
+              <div id="popup2" class="popup">
+                <div class="popupContainer">
+                    <img src="assets/Slides_25-35/Reading_Help_popup.png" alt="Popup2">
+                    <button onclick="hidePopup('popup2')">✖</button>
+                    <div id="grassImage">
+                        <img src="assets/Slides_25-35/Photo01.png" alt="GrassImage" />
+                        <p>A big, natural area with lots of trees, plants, and different animals.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="popup">
+              <div class="popupContainer">
+                  <img src="assets/Slides_25-35/Reading_Help_popup.png" alt="Popup3">
+                  <button onclick="hidePopup('popup3')">✖</button>
+                  <div id="grassImage">
+                      <img src="assets/Slides_25-35/Photo01.png" alt="GrassImage" />
+                      <p>A big, natural area with lots of trees, plants, and different animals.</p>
+                  </div>
+              </div>
+          </div>
+          <div id="popup4" class="popup">
+            <div class="popupContainer">
+                <img src="assets/Slides_25-35/Reading_Help_popup.png" alt="Popup4">
+                <button onclick="hidePopup('popup4')">✖</button>
+                <div id="grassImage">
+                    <img src="assets/Slides_25-35/Photo01.png" alt="GrassImage" />
+                    <p>A big, natural area with lots of trees, plants, and different animals.</p>
+                </div>
+            </div>
+        </div>
+          
+      </div>
+ 
+  </div>
+
+    <!-- Fifth Section -->
+  <div id="section5" class="section"  style="display: block;" >
+      <video id="section5bgVideo" autoplay muted>
+        <source src="assets/bg_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <img id="section5nextImage" src="assets/second_page/scroll.png" alt="Next" style="display: none;">
+  </div>
+
+  <!-- 6th section -->
+  <div id="section6" class="section" style="display: none;">
+    <div class="image-container2" id="section6wall" data-speed="-0.1">
+      <img src="assets/Slides38-42/Sky.png" alt="Section6wall" />
+    </div>
+    <div class="image-container2" id="section6_sun" data-speed="-0.05">
+      <img src="assets/Slides18-20/Sun02.png" alt="Section6_sun">
+    </div>
+    <div class="image-container2" id="section6_hill" data-speed="-0.005">
+      <img src="assets/Slides_25-35/Hills.png" alt="Section6_hill">
+    </div>
+    <div class="image-container2" id="section6_tree" data-speed="-0.005">
+      <img src="assets/Slides_25-35/Trees_ground.png" alt="Section6_tree">
+    </div>
+    <div class="image-container2" id="section6_water" data-speed="null">
+      <img src="assets/Slides_25-35/Water.png" alt="Section6_water">
+      <div class="section6button-container" id="section6button7">
+        <img src="assets/Slides_25-35/Yeast.png"  alt="Section6button7">
+      </div>
+    </div>
+    <!-- <div class="section6button-container" id="section6button1" data-speed="-0.15">
+      <img src="assets/Slides_25-35/Kelp.png"  alt="section6button1">
+    </div>
+    <div class="section6button-container" id="section6button2" data-speed="-0.15">
+      <img src="assets/Slides_25-35/Grizzly_bear.png"  alt="Section6button2">
+    </div>
+    <div class="section6button-container" id="section6button3" data-speed="-0.15">
+      <img src="assets/Slides_25-35/Salmon.png"  alt="Section6button3">
+    </div>
+    <div class="section6button-container" id="section6button4" data-speed="-0.15">
+      <img src="assets/Slides_25-35/Salmon.png"  alt="Section6button4">
+    </div>
+    <div class="section6button-container" id="section6button5" data-speed="-0.15">
+      <img src="assets/Slides_25-35/Salmon.png"  alt="Section6button5">
+    </div>
+    <div class="section6button-container" id="section6button6" data-speed="-0.15">
+      <img src="assets/Slides_25-35/Salmon.png"  alt="Section6button6">
+    </div>
+    <div class="section6button-container" id="section6button7" data-speed="-0.15">
+      <img src="assets/Slides_25-35/Salmon.png"  alt="Section6button7">
+    </div> -->
+  </div>
+
+  
+
+ <script src="script.js"></script>
+</body>
+</html>
